@@ -506,7 +506,7 @@ without compromising the minimum required capacity for running your workloads.
 1.  Upgrade the kubelet config:
 
     ```shell
-    sudo kubeadm upgrade node config --kubelet-version v1.14.x
+    sudo kubeadm upgrade node config --kubelet-version v1.17.x
     ```
 
     Replace `x` with the patch version you picked for this ugprade.
@@ -514,13 +514,13 @@ without compromising the minimum required capacity for running your workloads.
 1.  升级 kubelet 配置:
 
     ```shell
-    sudo kubeadm upgrade node config --kubelet-version v1.14.x
+    sudo kubeadm upgrade node config --kubelet-version v1.17.x
     ```
 
     <!--
     Replace `x` with the patch version you picked for this ugprade.
     -->
-    用最新的修补程序版本替换 1.14.x-00 中的 x
+    用最新的修补程序版本替换 1.17.x-00 中的 x
 
 
 <!--
